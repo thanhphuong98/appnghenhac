@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#E1F5FE"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearcardviewalbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:id="@+id/imageviewAlbum"
+            android:layout_width="180dp"
+            android:layout_height="180dp"/>
+        <TextView
+            android:background="#E1F5FE"
+            android:textColor="#3F51B5"
+            android:maxWidth="180dp"
+            android:textSize="20sp"
+            android:text="Ngay Xuan long phung sum vay"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/textviewTenAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+        <TextView
+            android:background="#E1F5FE"
+            android:textColor="#8c8a8a"
+            android:textSize="15sp"
+            android:maxWidth="180dp"
+            android:text="Noo Phước Thinh"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/textviewTenCasiAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

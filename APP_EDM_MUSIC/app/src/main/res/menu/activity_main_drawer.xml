@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sreach"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Tìm kiếm" />
+        <item
+            android:id="@+id/nav_listLove"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Danh sách yêu thích" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_vote"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Đánh giá ứng dụng" />
+    </group>
+
+</menu>
